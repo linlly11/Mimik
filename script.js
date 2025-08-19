@@ -14,6 +14,20 @@ const questions = [
   {thai:"หมีขั้วโลก", answer:"Polar Bear", options:["Polar Bear","Bear","Bat"]},
   {thai:"ยุง", answer:"Mosquito", options:["Mosoqito","Mosquito","Mosqeito"]}, 
   {thai:"แมลงสาบ", answer:"Cockroach", options:["Cockroech","Cockarech","Cockroach"]},
+  {thai:"ควาย", answer:"Buffalo", options:["Buffalo","Baffalo","Beffalo"]},
+  {thai:"ห่าน", answer:"Goose", options:["Goose","Goase","Gooes"]},
+  {thai:"ยีราฟ", answer:"Giraffe", options:["Giraffe","Gireffe","Giraffa"]},
+  {thai:"เหยี่ยว", answer:"Hawk", options:["Hewk","Hswk","Hawk"]},
+  {thai:"ไก่งวง", answer:"Turkey", options:["Turkey","Turkay","Tarkay"]},
+  {thai:"กบ", answer:"Frog", options:["Frog","Faog","Froog"]},
+  {thai:"ปลาไห", answer:"Eel", options:["Eal","Eil","Eel"]},
+  {thai:"ปลากระเบน", answer:"Stingray", options:["Stingrey","Stingray","Stingriy"]},
+  {thai:"นกเงือก", answer:"Hornbill", options:["Hornbill","Hornbile","Hornbail"]},
+  {thai:"อีกา", answer:"Crow", options:["Craw","Crow","Crew"]},
+  {thai:"งูเห่า", answer:"Cobra", options:["Cobre","Cobba","Cobra"]},
+  {thai:"จิ้งจก", answer:"Lizard", options:["Lizard","Gecko","Iguana"]},
+  {thai:"ตุ๊กแก", answer:"Gecko", options:["Gecko","Lizard","Iguana"]},
+  {thai:"งู", answer:"Snake", options:["Snaka","Snake","Sneke"]},
 ];
 
 let currentQ = 0;
