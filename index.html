@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>เกมทายคำศัพท์ภาษาอังกฤษกันน</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- หน้าเริ่มเกม -->
+  <div id="start-page" class="start-container">
+    <h1>ทายคำศัพท์ กันเต๊อะ</h1>
+    <p>by phiangfa</p>
+    <button id="startBtn" class="start-btn">เริ่มเกม</button>
+  </div>
+
+  <!-- หน้าเกม -->
+  <div id="game-page" class="game-container hidden">
+    <h1>เกมทายคำศัพท์ภาษาอังกฤษง่ายๆ</h1>
+    <div class="score">คะแนน: <span id="score">0</span></div>
+    <div class="timer">เวลาที่เหลือ: <span id="time">10</span> วิ</div>
+    <div id="quiz">
+      <h2 id="question-text"></h2>
+      <div id="options"></div>
+      <button id="nextBtn" class="hidden">ถัดไป</button>
+    </div>
+    <div id="result" class="hidden"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
